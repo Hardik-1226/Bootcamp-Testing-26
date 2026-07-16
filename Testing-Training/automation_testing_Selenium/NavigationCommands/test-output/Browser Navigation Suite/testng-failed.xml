@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Browser Navigation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.NavigationCommand.Example.Browser_navigation_test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="navigationTest"/>
+        </methods>
+      </class> <!-- com.NavigationCommand.Example.Browser_navigation_test -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Browser Navigation Suite] -->
