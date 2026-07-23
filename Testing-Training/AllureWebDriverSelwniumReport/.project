@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>SelaniumListBox</name>
+	<name>AllureWebDriver</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1784613966561</id>
+			<id>1784613852726</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
