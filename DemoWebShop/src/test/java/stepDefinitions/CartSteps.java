@@ -21,13 +21,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-/**
- * CartSteps - Step definitions for Cart.feature and Checkout.feature files.
- * Implements Cucumber step definitions for cart and checkout scenarios.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class CartSteps {
 
     private static final Logger logger = LogManager.getLogger(CartSteps.class);
@@ -37,9 +30,6 @@ public class CartSteps {
     private CartPage cartPage;
     private CheckoutPage checkoutPage;
 
-    /**
-     * Cucumber Before hook - Sets up browser before each Cart/Checkout scenario.
-     */
     @Before("@Cart or @Checkout")
     public void setUp() {
         logger.info("Setting up browser for Cart/Checkout scenario");
@@ -50,9 +40,6 @@ public class CartSteps {
         logger.info("Browser setup completed");
     }
 
-    /**
-     * Cucumber After hook - Closes browser after each Cart/Checkout scenario.
-     */
     @After("@Cart or @Checkout")
     public void tearDown() {
         logger.info("Tearing down browser after Cart/Checkout scenario");

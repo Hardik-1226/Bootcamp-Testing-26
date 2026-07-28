@@ -14,10 +14,6 @@ import io.qameta.allure.Story;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-/**
- * DELETERequestTest - Tests for all DELETE API endpoints.
- * Deletes products, users, and carts.
- */
 @Epic("API Testing")
 @Feature("DELETE Requests")
 public class DELETERequestTest extends BaseAPI {

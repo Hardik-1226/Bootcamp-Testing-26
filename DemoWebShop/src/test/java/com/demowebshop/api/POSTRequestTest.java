@@ -14,10 +14,6 @@ import io.qameta.allure.Story;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-/**
- * POSTRequestTest - Tests for all POST API endpoints.
- * Creates new products, users, carts, and handles login.
- */
 @Epic("API Testing")
 @Feature("POST Requests")
 public class POSTRequestTest extends BaseAPI {
@@ -31,7 +27,6 @@ public class POSTRequestTest extends BaseAPI {
     public void testLoginAPI() {
         logger.info("Testing POST Login");
 
-        // Request body for login
         String requestBody = "{"
                 + "\"username\": \"mor_2314\","
                 + "\"password\": \"83r5^_\""
@@ -57,7 +52,6 @@ public class POSTRequestTest extends BaseAPI {
     public void testCreateProduct() {
         logger.info("Testing POST Create Product");
 
-        // Request body for new product
         String requestBody = "{"
                 + "\"title\": \"Test Product from Automation\","
                 + "\"price\": 49.99,"
@@ -89,7 +83,6 @@ public class POSTRequestTest extends BaseAPI {
     public void testCreateUser() {
         logger.info("Testing POST Create User");
 
-        // Request body for new user
         String requestBody = "{"
                 + "\"email\": \"automation@test.com\","
                 + "\"username\": \"automation_user\","
@@ -131,7 +124,6 @@ public class POSTRequestTest extends BaseAPI {
     public void testAddToCart() {
         logger.info("Testing POST Add to Cart");
 
-        // Request body for new cart
         String requestBody = "{"
                 + "\"userId\": 5,"
                 + "\"date\": \"2024-01-01\","

@@ -50,3 +50,4 @@ screenshots/
 # Build
 build/
 out/
+/.metadata/

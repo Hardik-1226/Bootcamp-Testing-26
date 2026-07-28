@@ -14,10 +14,6 @@ import io.qameta.allure.Story;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-/**
- * GETRequestTest - Tests for all GET API endpoints.
- * Uses FakeStoreAPI to validate products, users, and carts.
- */
 @Epic("API Testing")
 @Feature("GET Requests")
 public class GETRequestTest extends BaseAPI {

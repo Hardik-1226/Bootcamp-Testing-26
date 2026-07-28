@@ -15,13 +15,6 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-/**
- * SearchProductTest - Test class for DemoWebShop product search functionality.
- * Validates search with valid products, empty search, and non-existent products.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 @Epic("DemoWebShop Automation")
 @Feature("Search")
 public class SearchProductTest extends BaseClass {
@@ -33,18 +26,26 @@ public class SearchProductTest extends BaseClass {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify user can search for an existing product")
     public void verifySearchValidProduct() {
+
         logger.info("Starting verifySearchValidProduct test");
 
         HomePage homePage = new HomePage(driver);
 
         homePage.searchProduct("Computer");
 
-        String title = homePage.verifyTitle();
-        logger.info("Search results page title: {}", title);
+        org.openqa.selenium.support.ui.WebDriverWait wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+        wait.until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("search"));
 
-        Assert.assertTrue(title.contains("Search"),
-                "Page title should contain 'Search' after searching");
-        logger.info("Valid product search test - PASSED");
+        String currentUrl = driver.getCurrentUrl();
+        logger.info("Current URL : {}", currentUrl);
+
+        Assert.assertTrue(currentUrl.toLowerCase().contains("search"),
+                "Search page should open.");
+
+        int count = homePage.getProductCount();
+        Assert.assertTrue(count > 0, "At least one product should be displayed.");
+
+        logger.info("Valid product search test PASSED");
     }
 
     @Test(priority = 2)
@@ -52,16 +53,22 @@ public class SearchProductTest extends BaseClass {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify search handles non-existent product gracefully")
     public void verifySearchNonExistentProduct() {
+
         logger.info("Starting verifySearchNonExistentProduct test");
 
         HomePage homePage = new HomePage(driver);
 
         homePage.searchProduct("NonExistentProduct12345");
 
-        String title = homePage.verifyTitle();
-        Assert.assertTrue(title.contains("Search"),
-                "Should navigate to search results page");
-        logger.info("Non-existent product search test - PASSED");
+        org.openqa.selenium.support.ui.WebDriverWait wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+        wait.until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("search"));
+
+        String currentUrl = driver.getCurrentUrl();
+
+        Assert.assertTrue(currentUrl.toLowerCase().contains("search"),
+                "Search page should open.");
+
+        logger.info("Non-existent product search test PASSED");
     }
 
     @Test(priority = 3)
@@ -69,16 +76,25 @@ public class SearchProductTest extends BaseClass {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify search works with partial product name")
     public void verifySearchWithPartialText() {
+
         logger.info("Starting verifySearchWithPartialText test");
 
         HomePage homePage = new HomePage(driver);
 
-        homePage.searchProduct("Book");
+        homePage.searchProduct("Comp");
 
-        String title = homePage.verifyTitle();
-        Assert.assertTrue(title.contains("Search"),
-                "Page title should contain 'Search'");
-        logger.info("Partial text search test - PASSED");
+        org.openqa.selenium.support.ui.WebDriverWait wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+        wait.until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("search"));
+
+        String currentUrl = driver.getCurrentUrl();
+
+        Assert.assertTrue(currentUrl.toLowerCase().contains("search"),
+                "Search page should open.");
+
+        int count = homePage.getProductCount();
+        Assert.assertTrue(count > 0, "Products should be displayed for partial match.");
+
+        logger.info("Partial text search test PASSED");
     }
 
     @Test(priority = 4)
@@ -86,16 +102,19 @@ public class SearchProductTest extends BaseClass {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify home page logo and title are displayed correctly")
     public void verifyHomePageElements() {
+
         logger.info("Starting verifyHomePageElements test");
 
         HomePage homePage = new HomePage(driver);
 
         Assert.assertTrue(homePage.isLogoDisplayed(),
-                "Site logo should be displayed");
+                "Logo should be displayed.");
 
-        String title = homePage.verifyTitle();
-        Assert.assertNotNull(title, "Page title should not be null");
-        Assert.assertFalse(title.isEmpty(), "Page title should not be empty");
-        logger.info("Home page elements verification test - PASSED");
+        String title = driver.getTitle();
+
+        Assert.assertNotNull(title);
+        Assert.assertFalse(title.isEmpty());
+
+        logger.info("Home page elements verification PASSED");
     }
 }

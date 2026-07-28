@@ -9,6 +9,7 @@ import com.demowebshop.base.BaseClass;
 import com.demowebshop.pages.CartPage;
 import com.demowebshop.pages.HomePage;
 import com.demowebshop.pages.LoginPage;
+import com.demowebshop.pages.ProductPage;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -17,109 +18,120 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-/**
- * CartTest - Test class for DemoWebShop shopping cart functionality.
- * Validates add, remove, update quantity, and cart verification operations.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 @Epic("DemoWebShop Automation")
 @Feature("Shopping Cart")
 public class CartTest extends BaseClass {
 
     private static final Logger logger = LogManager.getLogger(CartTest.class);
 
+    private HomePage loginToApplication() {
+
+        HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = homePage.goToLogin();
+
+        homePage = loginPage.login(config.getUsername(), config.getPassword());
+
+        System.out.println("Logged In: " + homePage.isUserLoggedIn());
+
+        Assert.assertTrue(homePage.isUserLoggedIn(), "Login failed before Cart Test");
+
+        return homePage;
+    }
+
+    private CartPage addProductToCart() {
+
+        HomePage homePage = loginToApplication();
+
+        homePage.searchProduct("Computing and Internet");
+        homePage.clickProduct("Computing and Internet");
+
+        ProductPage productPage = new ProductPage(driver);
+        productPage.clickAddToCart();
+
+        HomePage updatedHomePage = new HomePage(driver);
+
+        return updatedHomePage.goToCart();
+    }
+
     @Test(priority = 1)
     @Story("Navigate to Cart")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify user can navigate to shopping cart page")
     public void verifyNavigateToCart() {
+
         logger.info("Starting verifyNavigateToCart test");
 
-        LoginPage loginPage = new LoginPage(driver);
-        HomePage homePage = loginPage.login(config.getUsername(), config.getPassword());
+        HomePage homePage = loginToApplication();
 
         CartPage cartPage = homePage.goToCart();
 
-        String title = cartPage.getPageTitle();
-        logger.info("Cart page title: {}", title);
+        Assert.assertTrue(
+                cartPage.getPageTitle().contains("Shopping Cart"),
+                "Shopping Cart page should open."
+        );
 
-        Assert.assertTrue(title.contains("Shopping Cart") || title.contains("Demo Web Shop"),
-                "Should navigate to the shopping cart page");
-        logger.info("Navigate to cart test - PASSED");
+        logger.info("verifyNavigateToCart PASSED");
     }
 
     @Test(priority = 2)
     @Story("Add Product to Cart")
     @Severity(SeverityLevel.BLOCKER)
-    @Description("Verify product can be added to cart via search")
+    @Description("Verify product can be added to shopping cart")
     public void verifyAddProductToCart() {
+
         logger.info("Starting verifyAddProductToCart test");
 
-        LoginPage loginPage = new LoginPage(driver);
-        HomePage homePage = loginPage.login(config.getUsername(), config.getPassword());
+        CartPage cartPage = addProductToCart();
 
-        homePage.searchProduct("Computing and Internet");
-        homePage.clickProduct("Computing and Internet");
+        Assert.assertTrue(
+                cartPage.isCartNotEmpty(),
+                "Product should be present in cart."
+        );
 
-        CartPage cartPage = homePage.goToCart();
-
-        String title = cartPage.getPageTitle();
-        Assert.assertNotNull(title, "Cart page should load successfully");
-        logger.info("Add product to cart test - PASSED");
+        logger.info("verifyAddProductToCart PASSED");
     }
 
     @Test(priority = 3)
     @Story("Update Cart Quantity")
     @Severity(SeverityLevel.NORMAL)
-    @Description("Verify product quantity can be updated in cart")
+    @Description("Verify quantity can be updated")
     public void verifyUpdateCartQuantity() {
+
         logger.info("Starting verifyUpdateCartQuantity test");
 
-        LoginPage loginPage = new LoginPage(driver);
-        HomePage homePage = loginPage.login(config.getUsername(), config.getPassword());
+        CartPage cartPage = addProductToCart();
 
-        CartPage cartPage = homePage.goToCart();
+        cartPage.updateQuantity(2);
 
-        if (cartPage.isCartNotEmpty()) {
-            cartPage.updateQuantity(2);
-            logger.info("Quantity updated to 2");
-            Assert.assertTrue(cartPage.isCartNotEmpty(), "Cart should still have items after update");
-        } else {
-            logger.warn("Cart is empty, skipping quantity update");
-        }
+        Assert.assertTrue(
+                cartPage.isCartNotEmpty(),
+                "Cart should still contain product after quantity update."
+        );
 
-        logger.info("Update cart quantity test - PASSED");
+        logger.info("verifyUpdateCartQuantity PASSED");
     }
 
     @Test(priority = 4)
     @Story("Remove Product from Cart")
     @Severity(SeverityLevel.CRITICAL)
-    @Description("Verify product can be removed from cart")
+    @Description("Verify product can be removed from shopping cart")
     public void verifyRemoveProductFromCart() {
+
         logger.info("Starting verifyRemoveProductFromCart test");
 
-        LoginPage loginPage = new LoginPage(driver);
-        HomePage homePage = loginPage.login(config.getUsername(), config.getPassword());
+        CartPage cartPage = addProductToCart();
 
-        CartPage cartPage = homePage.goToCart();
+        int initialCount = cartPage.getCartItemCount();
 
-        if (cartPage.isCartNotEmpty()) {
-            int initialCount = cartPage.getCartItemCount();
-            logger.info("Initial cart item count: {}", initialCount);
+        cartPage.removeFirstProduct();
 
-            cartPage.removeFirstProduct();
+        int updatedCount = cartPage.getCartItemCount();
 
-            int updatedCount = cartPage.getCartItemCount();
-            logger.info("Updated cart item count: {}", updatedCount);
+        Assert.assertTrue(
+                updatedCount < initialCount || cartPage.isCartEmpty(),
+                "Product should be removed from cart."
+        );
 
-            Assert.assertTrue(updatedCount < initialCount || cartPage.isCartEmpty(),
-                    "Cart item count should decrease after removal");
-        } else {
-            logger.warn("Cart is empty, nothing to remove");
-        }
-
-        logger.info("Remove product from cart test - PASSED");
+        logger.info("verifyRemoveProductFromCart PASSED");
     }
 }

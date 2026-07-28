@@ -19,24 +19,12 @@ import com.demowebshop.utils.ScreenshotHelper;
 
 import io.qameta.allure.Allure;
 
-/**
- * BaseClass - Foundation class for all test classes.
- * Handles browser initialization, configuration loading, screenshot capture on failure,
- * and driver cleanup. All test classes must extend this class.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class BaseClass {
 
     private static final Logger logger = LogManager.getLogger(BaseClass.class);
     public WebDriver driver;
     public ConfigDataProvider config;
 
-    /**
-     * Suite-level setup - Runs once before the entire test suite.
-     * Initializes configuration and logs suite start.
-     */
     @BeforeSuite
     public void beforeSuite() {
         logger.info("========================================");
@@ -44,10 +32,6 @@ public class BaseClass {
         logger.info("========================================");
     }
 
-    /**
-     * Class-level setup - Runs once before each test class.
-     * Loads configuration from properties file.
-     */
     @BeforeClass
     public void beforeClass() {
         logger.info("Loading configuration for test class: {}", this.getClass().getSimpleName());
@@ -55,11 +39,6 @@ public class BaseClass {
         logger.info("Configuration loaded - Browser: {}, URL: {}", config.getBrowser(), config.getUrl());
     }
 
-    /**
-     * Method-level setup - Runs before each test method.
-     * Launches the browser, navigates to the application URL, maximizes window,
-     * and configures implicit wait.
-     */
     @BeforeMethod
     public void setup() {
         logger.info("--- Test Setup Started ---");
@@ -72,12 +51,6 @@ public class BaseClass {
         logger.info("--- Test Setup Completed ---");
     }
 
-    /**
-     * Method-level teardown - Runs after each test method.
-     * Captures screenshot on test failure and closes the browser.
-     *
-     * @param result TestNG test result containing pass/fail status
-     */
     @AfterMethod
     public void tearDown(ITestResult result) {
         logger.info("--- Test Teardown Started ---");
@@ -109,17 +82,11 @@ public class BaseClass {
         logger.info("--- Test Teardown Completed ---");
     }
 
-    /**
-     * Class-level teardown - Runs once after each test class.
-     */
     @AfterClass
     public void afterClass() {
         logger.info("Test class completed: {}", this.getClass().getSimpleName());
     }
 
-    /**
-     * Suite-level teardown - Runs once after the entire test suite.
-     */
     @AfterSuite
     public void afterSuite() {
         logger.info("========================================");

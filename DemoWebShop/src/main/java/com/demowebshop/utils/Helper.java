@@ -19,13 +19,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Helper - Contains reusable utility methods for the entire framework.
- * Provides screenshot, scrolling, highlighting, JS execution, wait, and random data utilities.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class Helper {
 
     private static final Logger logger = LogManager.getLogger(Helper.class);
@@ -34,13 +27,6 @@ public class Helper {
     private static final String ALPHA_CHARS = "abcdefghijklmnopqrstuvwxyz";
     private static final String NUMERIC_CHARS = "0123456789";
 
-    /**
-     * Captures a screenshot and saves it to the screenshots directory.
-     *
-     * @param driver   WebDriver instance
-     * @param testName name of the test for the screenshot filename
-     * @return absolute path to the saved screenshot
-     */
     public static String captureScreenshot(WebDriver driver, String testName) {
         logger.info("Capturing screenshot for: {}", testName);
         String timestamp = generateTimestamp();
@@ -65,21 +51,10 @@ public class Helper {
         }
     }
 
-    /**
-     * Generates a formatted timestamp string.
-     *
-     * @return timestamp in yyyyMMdd_HHmmss format
-     */
     public static String generateTimestamp() {
         return new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
     }
 
-    /**
-     * Scrolls the page to bring the specified element into view.
-     *
-     * @param driver  WebDriver instance
-     * @param element WebElement to scroll into view
-     */
     public static void scrollIntoView(WebDriver driver, WebElement element) {
         logger.debug("Scrolling element into view");
         try {
@@ -91,12 +66,6 @@ public class Helper {
         }
     }
 
-    /**
-     * Highlights a WebElement by changing its border color temporarily.
-     *
-     * @param driver  WebDriver instance
-     * @param element WebElement to highlight
-     */
     public static void highlightElement(WebDriver driver, WebElement element) {
         logger.debug("Highlighting element");
         try {
@@ -112,12 +81,6 @@ public class Helper {
         }
     }
 
-    /**
-     * Clicks an element using JavaScript executor.
-     *
-     * @param driver  WebDriver instance
-     * @param element WebElement to click
-     */
     public static void javascriptClick(WebDriver driver, WebElement element) {
         logger.debug("Performing JavaScript click on element");
         try {
@@ -130,14 +93,6 @@ public class Helper {
         }
     }
 
-    /**
-     * Waits for an element to become visible.
-     *
-     * @param driver         WebDriver instance
-     * @param element        WebElement to wait for
-     * @param timeoutSeconds maximum wait time in seconds
-     * @return the visible WebElement
-     */
     public static WebElement waitForVisibility(WebDriver driver, WebElement element, long timeoutSeconds) {
         logger.debug("Waiting for element visibility with timeout: {} seconds", timeoutSeconds);
         try {
@@ -149,14 +104,6 @@ public class Helper {
         }
     }
 
-    /**
-     * Waits for an element to become clickable.
-     *
-     * @param driver         WebDriver instance
-     * @param element        WebElement to wait for
-     * @param timeoutSeconds maximum wait time in seconds
-     * @return the clickable WebElement
-     */
     public static WebElement waitForClickable(WebDriver driver, WebElement element, long timeoutSeconds) {
         logger.debug("Waiting for element clickability with timeout: {} seconds", timeoutSeconds);
         try {
@@ -168,12 +115,6 @@ public class Helper {
         }
     }
 
-    /**
-     * Selects a dropdown option by visible text.
-     *
-     * @param element     dropdown WebElement
-     * @param visibleText text to select
-     */
     public static void selectDropdown(WebElement element, String visibleText) {
         logger.info("Selecting dropdown value: {}", visibleText);
         try {
@@ -186,23 +127,12 @@ public class Helper {
         }
     }
 
-    /**
-     * Generates a random email address.
-     *
-     * @return random email string
-     */
     public static String randomEmail() {
         String email = "testuser" + random.nextInt(99999) + "@demowebshop.com";
         logger.debug("Generated random email: {}", email);
         return email;
     }
 
-    /**
-     * Generates a random alphanumeric string of the specified length.
-     *
-     * @param length desired length of the string
-     * @return random string
-     */
     public static String randomString(int length) {
         StringBuilder sb = new StringBuilder(length);
         for (int i = 0; i < length; i++) {
@@ -213,11 +143,6 @@ public class Helper {
         return result;
     }
 
-    /**
-     * Generates a random 10-digit phone number.
-     *
-     * @return random phone number string
-     */
     public static String randomPhone() {
         StringBuilder sb = new StringBuilder(10);
         sb.append(random.nextInt(9) + 1);

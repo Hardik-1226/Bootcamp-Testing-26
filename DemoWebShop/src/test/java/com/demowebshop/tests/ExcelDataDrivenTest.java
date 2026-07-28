@@ -17,13 +17,6 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-/**
- * ExcelDataDrivenTest - Data-driven test using Excel file for login scenarios.
- * Reads test data from DemoWebShopTestData.xlsx using Apache POI.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 @Epic("DemoWebShop Automation")
 @Feature("Data Driven - Excel")
 public class ExcelDataDrivenTest extends BaseClass {
@@ -36,6 +29,9 @@ public class ExcelDataDrivenTest extends BaseClass {
     @Description("Verify login with credentials from Excel file - LoginData sheet")
     public void verifyLoginWithExcelData() {
         logger.info("Starting verifyLoginWithExcelData test");
+
+        HomePage homePage = new HomePage(driver);
+        homePage.goToLogin();
 
         ExcelDataProvider excel = new ExcelDataProvider();
 
@@ -51,24 +47,23 @@ public class ExcelDataDrivenTest extends BaseClass {
 
             LoginPage loginPage = new LoginPage(driver);
 
-            if (email != null && !email.isEmpty()) {
-                loginPage.enterEmail(email);
-            }
-            if (password != null && !password.isEmpty()) {
-                loginPage.enterPassword(password);
-            }
-            loginPage.clickLogin();
-
-            if (expectedResult.equalsIgnoreCase("success")) {
-                HomePage homePage = new HomePage(driver);
-                Assert.assertTrue(homePage.isUserLoggedIn(),
-                        "User should be logged in for row " + i);
-                homePage.logout();
-                logger.info("Excel row {} login successful", i);
-            } else {
-                Assert.assertTrue(loginPage.isLoginErrorDisplayed(),
-                        "Error should display for invalid credentials - Row " + i);
-                logger.info("Excel row {} login failed as expected", i);
+            try {
+                HomePage resultPage = loginPage.login(email == null ? "" : email, password == null ? "" : password);
+                if (expectedResult.equalsIgnoreCase("success")) {
+                    Assert.assertTrue(resultPage.isUserLoggedIn(), "User should be logged in");
+                    resultPage.logout();
+                    logger.info("Excel row {} login successful", i);
+                } else {
+                    Assert.fail("Login should have failed for invalid credentials - Row " + i);
+                }
+            } catch (Exception e) {
+                if (expectedResult.equalsIgnoreCase("success")) {
+                    throw e;
+                } else {
+                    Assert.assertTrue(loginPage.isLoginErrorDisplayed(),
+                            "Error should display for invalid credentials - Row " + i);
+                    logger.info("Excel row {} login failed as expected", i);
+                }
             }
 
             driver.navigate().to(config.getUrl() + "login");
@@ -84,6 +79,9 @@ public class ExcelDataDrivenTest extends BaseClass {
     public void verifyLoginWithFirstExcelRow() {
         logger.info("Starting verifyLoginWithFirstExcelRow test");
 
+        HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = homePage.goToLogin();
+
         ExcelDataProvider excel = new ExcelDataProvider();
 
         String user = excel.getStringData("LoginData", 1, 0);
@@ -91,8 +89,7 @@ public class ExcelDataDrivenTest extends BaseClass {
 
         logger.info("Login attempt with Excel row 1: {}", user);
 
-        LoginPage loginPage = new LoginPage(driver);
-        HomePage homePage = loginPage.login(user, pass);
+        homePage = loginPage.login(user, pass);
 
         String title = driver.getTitle();
         logger.info("Page Title: {}", title);

@@ -9,48 +9,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * WaitHelper - Provides explicit wait utility methods for Selenium WebDriver.
- * Wraps WebDriverWait with ExpectedConditions for cleaner page object usage.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class WaitHelper {
 
     private static final Logger logger = LogManager.getLogger(WaitHelper.class);
     private WebDriver driver;
     private WebDriverWait wait;
 
-    /**
-     * Constructor - Initializes WaitHelper with default timeout of 10 seconds.
-     *
-     * @param driver WebDriver instance
-     */
     public WaitHelper(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         logger.debug("WaitHelper initialized with default timeout: 10 seconds");
     }
 
-    /**
-     * Constructor - Initializes WaitHelper with a custom timeout.
-     *
-     * @param driver         WebDriver instance
-     * @param timeoutSeconds custom timeout in seconds
-     */
     public WaitHelper(WebDriver driver, long timeoutSeconds) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutSeconds));
         logger.debug("WaitHelper initialized with custom timeout: {} seconds", timeoutSeconds);
     }
 
-    /**
-     * Waits until the element is visible on the page.
-     *
-     * @param element WebElement to wait for
-     * @return the visible WebElement
-     */
     public WebElement waitForVisibility(WebElement element) {
         logger.debug("Waiting for element to be visible: {}", element);
         try {
@@ -61,12 +37,6 @@ public class WaitHelper {
         }
     }
 
-    /**
-     * Waits until the element is clickable.
-     *
-     * @param element WebElement to wait for
-     * @return the clickable WebElement
-     */
     public WebElement waitForClickable(WebElement element) {
         logger.debug("Waiting for element to be clickable: {}", element);
         try {
@@ -77,12 +47,6 @@ public class WaitHelper {
         }
     }
 
-    /**
-     * Waits until the element is present in the DOM.
-     *
-     * @param element WebElement to wait for
-     * @return the present WebElement
-     */
     public WebElement waitForPresence(WebElement element) {
         logger.debug("Waiting for element presence: {}", element);
         try {
@@ -93,12 +57,6 @@ public class WaitHelper {
         }
     }
 
-    /**
-     * Waits until the page title contains the specified text.
-     *
-     * @param titlePart partial title text
-     * @return true if title contains the text
-     */
     public boolean waitForTitle(String titlePart) {
         logger.debug("Waiting for title to contain: {}", titlePart);
         try {
@@ -109,12 +67,6 @@ public class WaitHelper {
         }
     }
 
-    /**
-     * Waits until the URL contains the specified text.
-     *
-     * @param urlPart partial URL text
-     * @return true if URL contains the text
-     */
     public boolean waitForUrl(String urlPart) {
         logger.debug("Waiting for URL to contain: {}", urlPart);
         try {
@@ -125,12 +77,6 @@ public class WaitHelper {
         }
     }
 
-    /**
-     * Waits until the element becomes invisible/hidden.
-     *
-     * @param element WebElement to wait for invisibility
-     * @return true if element becomes invisible
-     */
     public boolean waitForInvisibility(WebElement element) {
         logger.debug("Waiting for element to become invisible: {}", element);
         try {
@@ -141,11 +87,6 @@ public class WaitHelper {
         }
     }
 
-    /**
-     * Waits until an alert is present.
-     *
-     * @return the Alert object
-     */
     public org.openqa.selenium.Alert waitForAlert() {
         logger.debug("Waiting for alert to be present");
         try {

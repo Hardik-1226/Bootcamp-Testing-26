@@ -12,25 +12,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-/**
- * ScreenshotHelper - Captures screenshots for test reporting and failure analysis.
- * Saves screenshots with timestamps to the configured directory.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class ScreenshotHelper {
 
     private static final Logger logger = LogManager.getLogger(ScreenshotHelper.class);
     private static final String SCREENSHOT_DIR = "./screenshots/";
 
-    /**
-     * Captures a screenshot and saves it with a timestamped filename.
-     *
-     * @param driver   WebDriver instance
-     * @param testName name of the test for the filename
-     * @return absolute path to the saved screenshot
-     */
     public static String captureScreenshot(WebDriver driver, String testName) {
         logger.info("Capturing screenshot for test: {}", testName);
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
@@ -56,12 +42,6 @@ public class ScreenshotHelper {
         }
     }
 
-    /**
-     * Captures a screenshot and returns it as a byte array for Allure reporting.
-     *
-     * @param driver WebDriver instance
-     * @return screenshot as byte array
-     */
     public static byte[] captureScreenshotAsBytes(WebDriver driver) {
         logger.debug("Capturing screenshot as byte array for Allure report");
         try {
@@ -73,14 +53,6 @@ public class ScreenshotHelper {
         }
     }
 
-    /**
-     * Captures a screenshot to a custom directory path.
-     *
-     * @param driver    WebDriver instance
-     * @param testName  name of the test for the filename
-     * @param directory custom directory path
-     * @return absolute path to the saved screenshot
-     */
     public static String captureScreenshot(WebDriver driver, String testName, String directory) {
         logger.info("Capturing screenshot for test: {} in directory: {}", testName, directory);
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());

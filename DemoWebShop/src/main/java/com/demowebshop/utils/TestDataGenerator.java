@@ -11,31 +11,15 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-/**
- * TestDataGenerator - Utility to generate Excel test data files.
- * Creates DemoWebShopTestData.xlsx with LoginData and RegistrationData sheets.
- * Run this class once to generate test data before executing tests.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class TestDataGenerator {
 
     private static final Logger logger = LogManager.getLogger(TestDataGenerator.class);
     private static final String FILE_PATH = "./src/main/resources/TestData/DemoWebShopTestData.xlsx";
 
-    /**
-     * Main method - Generates the Excel test data file.
-     *
-     * @param args command line arguments (not used)
-     */
     public static void main(String[] args) {
         generateTestData();
     }
 
-    /**
-     * Generates the DemoWebShopTestData.xlsx file with all required test data sheets.
-     */
     public static void generateTestData() {
         logger.info("Generating DemoWebShop test data Excel file");
 
@@ -64,11 +48,6 @@ public class TestDataGenerator {
         }
     }
 
-    /**
-     * Creates the LoginData sheet with test credentials.
-     *
-     * @param workbook the workbook to add the sheet to
-     */
     private static void createLoginDataSheet(XSSFWorkbook workbook) {
         XSSFSheet sheet = workbook.createSheet("LoginData");
 
@@ -96,11 +75,6 @@ public class TestDataGenerator {
         logger.info("LoginData sheet created with {} data rows", loginData.length - 1);
     }
 
-    /**
-     * Creates the RegistrationData sheet with test registration data.
-     *
-     * @param workbook the workbook to add the sheet to
-     */
     private static void createRegistrationDataSheet(XSSFWorkbook workbook) {
         XSSFSheet sheet = workbook.createSheet("RegistrationData");
 

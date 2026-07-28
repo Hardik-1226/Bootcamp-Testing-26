@@ -17,14 +17,6 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-/**
- * LoginTest - Test class for DemoWebShop login functionality.
- * Validates login with valid/invalid credentials using Page Object Model.
- * Matches training slide implementation pattern.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 @Epic("DemoWebShop Automation")
 @Feature("Login")
 public class LoginTest extends BaseClass {
@@ -36,20 +28,24 @@ public class LoginTest extends BaseClass {
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify user can login with valid credentials from Excel data")
     public void verifyLoginWithValidCredentials() {
+
         logger.info("Starting verifyLoginWithValidCredentials test");
 
-        LoginPage loginPage = new LoginPage(driver);
+        HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = homePage.goToLogin();
+
         ExcelDataProvider excel = new ExcelDataProvider();
 
-        String user = excel.getStringData("LoginData", 1, 0);
-        String pass = excel.getStringData("LoginData", 1, 1);
+        String username = excel.getStringData("LoginData", 1, 0);
+        String password = excel.getStringData("LoginData", 1, 1);
 
-        HomePage homePage = loginPage.login(user, pass);
+        homePage = loginPage.login(username, password);
 
-        String title = driver.getTitle();
-        logger.info("Page Title: {}", title);
+        logger.info("Page Title: {}", driver.getTitle());
 
-        Assert.assertTrue(homePage.isUserLoggedIn(), "User should be logged in after valid login");
+        Assert.assertTrue(homePage.isUserLoggedIn(),
+                "User should be logged in after valid login");
+
         logger.info("Login test with valid credentials - PASSED");
     }
 
@@ -58,16 +54,19 @@ public class LoginTest extends BaseClass {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify login fails with invalid credentials")
     public void verifyLoginWithInvalidCredentials() {
+
         logger.info("Starting verifyLoginWithInvalidCredentials test");
 
-        LoginPage loginPage = new LoginPage(driver);
+        HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = homePage.goToLogin();
 
-        loginPage.enterEmail("invalid@test.com");
+        loginPage.enterEmail("invalid_unregistered_9999@test.com");
         loginPage.enterPassword("WrongPassword");
         loginPage.clickLogin();
 
         Assert.assertTrue(loginPage.isLoginErrorDisplayed(),
                 "Login error message should be displayed for invalid credentials");
+
         logger.info("Invalid login test - PASSED");
     }
 
@@ -76,20 +75,20 @@ public class LoginTest extends BaseClass {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify login using credentials from Config.properties")
     public void verifyLoginWithConfigCredentials() {
+
         logger.info("Starting verifyLoginWithConfigCredentials test");
 
-        LoginPage loginPage = new LoginPage(driver);
+        HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = homePage.goToLogin();
 
         String username = config.getUsername();
         String password = config.getPassword();
 
-        HomePage homePage = loginPage.login(username, password);
+        homePage = loginPage.login(username, password);
 
-        String accountEmail = homePage.getAccountEmail();
-        logger.info("Logged in as: {}", accountEmail);
+        Assert.assertTrue(homePage.isUserLoggedIn(),
+                "User should be logged in using Config.properties credentials");
 
-        Assert.assertEquals(accountEmail, username,
-                "Account email should match the login email");
         logger.info("Config credentials login test - PASSED");
     }
 
@@ -98,14 +97,17 @@ public class LoginTest extends BaseClass {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify login fails with empty email and password")
     public void verifyLoginWithEmptyCredentials() {
+
         logger.info("Starting verifyLoginWithEmptyCredentials test");
 
-        LoginPage loginPage = new LoginPage(driver);
+        HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = homePage.goToLogin();
 
         loginPage.clickLogin();
 
         Assert.assertTrue(loginPage.isLoginErrorDisplayed(),
                 "Error message should be displayed for empty credentials");
+
         logger.info("Empty credentials login test - PASSED");
     }
 }

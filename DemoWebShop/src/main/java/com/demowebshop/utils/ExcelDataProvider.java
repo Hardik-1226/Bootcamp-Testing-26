@@ -14,25 +14,15 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-/**
- * ExcelDataProvider - Reads test data from Excel (.xlsx) files using Apache POI.
- * Supports String, Numeric, Boolean, Formula and Blank cell types.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class ExcelDataProvider {
 
     private static final Logger logger = LogManager.getLogger(ExcelDataProvider.class);
     private XSSFWorkbook wb;
     private XSSFSheet sheet;
 
-    /**
-     * Constructor - Loads the DemoWebShop test data Excel workbook.
-     */
     public ExcelDataProvider() {
         try {
-            File src = new File("./src/main/resources/TestData/DemoWebShopTestData.xlsx");
+            File src = new File("./src/main/resources/TestData/LoginData.xlsx");
             FileInputStream fis = new FileInputStream(src);
             wb = new XSSFWorkbook(fis);
             fis.close();
@@ -45,11 +35,6 @@ public class ExcelDataProvider {
         }
     }
 
-    /**
-     * Constructor - Loads Excel workbook from the specified file path.
-     *
-     * @param filePath path to the Excel file
-     */
     public ExcelDataProvider(String filePath) {
         try {
             File src = new File(filePath);
@@ -64,14 +49,6 @@ public class ExcelDataProvider {
         }
     }
 
-    /**
-     * Gets a string value from the specified cell.
-     *
-     * @param sheetName name of the sheet
-     * @param row       row number (0-based)
-     * @param col       column number (0-based)
-     * @return cell value as String
-     */
     public String getStringData(String sheetName, int row, int col) {
         logger.debug("Reading string data from sheet: {}, row: {}, col: {}", sheetName, row, col);
         try {
@@ -93,14 +70,6 @@ public class ExcelDataProvider {
         }
     }
 
-    /**
-     * Gets a numeric value from the specified cell.
-     *
-     * @param sheetName name of the sheet
-     * @param row       row number (0-based)
-     * @param col       column number (0-based)
-     * @return cell value as double
-     */
     public double getNumericData(String sheetName, int row, int col) {
         logger.debug("Reading numeric data from sheet: {}, row: {}, col: {}", sheetName, row, col);
         try {
@@ -122,12 +91,6 @@ public class ExcelDataProvider {
         }
     }
 
-    /**
-     * Gets the total number of rows in the specified sheet.
-     *
-     * @param sheetName name of the sheet
-     * @return total number of rows (including header)
-     */
     public int getRowCount(String sheetName) {
         logger.debug("Getting row count for sheet: {}", sheetName);
         sheet = wb.getSheet(sheetName);
@@ -136,12 +99,6 @@ public class ExcelDataProvider {
         return rowCount;
     }
 
-    /**
-     * Gets the total number of columns in the first row of the specified sheet.
-     *
-     * @param sheetName name of the sheet
-     * @return total number of columns
-     */
     public int getColumnCount(String sheetName) {
         logger.debug("Getting column count for sheet: {}", sheetName);
         sheet = wb.getSheet(sheetName);
@@ -150,15 +107,6 @@ public class ExcelDataProvider {
         return colCount;
     }
 
-    /**
-     * Gets any cell data as a formatted String regardless of cell type.
-     * Handles String, Numeric, Boolean, Formula, and Blank cells.
-     *
-     * @param sheetName name of the sheet
-     * @param row       row number (0-based)
-     * @param col       column number (0-based)
-     * @return cell value as formatted String
-     */
     public String getCellData(String sheetName, int row, int col) {
         logger.debug("Reading cell data from sheet: {}, row: {}, col: {}", sheetName, row, col);
         try {

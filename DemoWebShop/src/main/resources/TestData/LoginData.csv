@@ -1,6 +1,6 @@
 Email,Password,ExpectedResult
-test@test.com,Password@123,success
-invalid@test.com,WrongPass,failure
-admin@demowebshop.com,Admin@123,success
-user@invalid.com,,failure
-,Password@123,failure
+hardik.valid.csv1@gmail.com,Hardik@123,success
+hardik.valid.csv1@gmail.com,WrongPassword,failure
+invalid_unregistered_9999@test.com,Hardik@123,failure
+,Hardik@123,failure
+hardik.valid.csv1@gmail.com,,failure

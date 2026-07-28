@@ -79,8 +79,13 @@
 						},
 						"url": {
 							"raw": "{{baseUrl}}/auth/login",
-							"host": ["{{baseUrl}}"],
-							"path": ["auth", "login"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
 						},
 						"description": "Login with valid credentials and get JWT token"
 					}
@@ -120,8 +125,13 @@
 						},
 						"url": {
 							"raw": "{{baseUrl}}/auth/login",
-							"host": ["{{baseUrl}}"],
-							"path": ["auth", "login"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
 						},
 						"description": "Login with invalid credentials - should fail"
 					}
@@ -195,8 +205,12 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/products",
-							"host": ["{{baseUrl}}"],
-							"path": ["products"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products"
+							]
 						},
 						"description": "Get all products from the store"
 					}
@@ -245,8 +259,13 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/products/1",
-							"host": ["{{baseUrl}}"],
-							"path": ["products", "1"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products",
+								"1"
+							]
 						},
 						"description": "Get a single product by ID"
 					}
@@ -288,8 +307,14 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/products/category/electronics",
-							"host": ["{{baseUrl}}"],
-							"path": ["products", "category", "electronics"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products",
+								"category",
+								"electronics"
+							]
 						},
 						"description": "Get products by category"
 					}
@@ -325,8 +350,13 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/products/categories",
-							"host": ["{{baseUrl}}"],
-							"path": ["products", "categories"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products",
+								"categories"
+							]
 						},
 						"description": "Get all product categories"
 					}
@@ -376,8 +406,12 @@
 						},
 						"url": {
 							"raw": "{{baseUrl}}/products",
-							"host": ["{{baseUrl}}"],
-							"path": ["products"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products"
+							]
 						},
 						"description": "Create a new product"
 					}
@@ -421,8 +455,13 @@
 						},
 						"url": {
 							"raw": "{{baseUrl}}/products/7",
-							"host": ["{{baseUrl}}"],
-							"path": ["products", "7"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products",
+								"7"
+							]
 						},
 						"description": "Update an existing product"
 					}
@@ -461,8 +500,13 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/products/6",
-							"host": ["{{baseUrl}}"],
-							"path": ["products", "6"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products",
+								"6"
+							]
 						},
 						"description": "Delete a product by ID"
 					}
@@ -507,8 +551,12 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/carts",
-							"host": ["{{baseUrl}}"],
-							"path": ["carts"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"carts"
+							]
 						},
 						"description": "Get all carts"
 					}
@@ -550,8 +598,13 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/carts/5",
-							"host": ["{{baseUrl}}"],
-							"path": ["carts", "5"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"carts",
+								"5"
+							]
 						},
 						"description": "Get a single cart by ID"
 					}
@@ -586,8 +639,14 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/carts/user/2",
-							"host": ["{{baseUrl}}"],
-							"path": ["carts", "user", "2"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"carts",
+								"user",
+								"2"
+							]
 						},
 						"description": "Get carts for a specific user"
 					}
@@ -631,8 +690,12 @@
 						},
 						"url": {
 							"raw": "{{baseUrl}}/carts",
-							"host": ["{{baseUrl}}"],
-							"path": ["carts"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"carts"
+							]
 						},
 						"description": "Add products to a new cart"
 					}
@@ -667,8 +730,13 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/carts/6",
-							"host": ["{{baseUrl}}"],
-							"path": ["carts", "6"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"carts",
+								"6"
+							]
 						},
 						"description": "Delete a cart by ID"
 					}
@@ -717,8 +785,12 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/users",
-							"host": ["{{baseUrl}}"],
-							"path": ["users"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users"
+							]
 						},
 						"description": "Get all users"
 					}
@@ -763,8 +835,13 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/users/1",
-							"host": ["{{baseUrl}}"],
-							"path": ["users", "1"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"1"
+							]
 						},
 						"description": "Get a single user by ID"
 					}
@@ -807,8 +884,12 @@
 						},
 						"url": {
 							"raw": "{{baseUrl}}/users",
-							"host": ["{{baseUrl}}"],
-							"path": ["users"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users"
+							]
 						},
 						"description": "Create a new user"
 					}
@@ -851,8 +932,13 @@
 						},
 						"url": {
 							"raw": "{{baseUrl}}/users/7",
-							"host": ["{{baseUrl}}"],
-							"path": ["users", "7"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"7"
+							]
 						},
 						"description": "Update an existing user"
 					}
@@ -891,8 +977,13 @@
 						],
 						"url": {
 							"raw": "{{baseUrl}}/users/6",
-							"host": ["{{baseUrl}}"],
-							"path": ["users", "6"]
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"6"
+							]
 						},
 						"description": "Delete a user by ID"
 					}

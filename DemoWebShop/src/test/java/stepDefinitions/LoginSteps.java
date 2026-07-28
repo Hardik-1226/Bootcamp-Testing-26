@@ -19,13 +19,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-/**
- * LoginSteps - Step definitions for Login.feature file.
- * Implements Cucumber step definitions for login scenarios.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 public class LoginSteps {
 
     private static final Logger logger = LogManager.getLogger(LoginSteps.class);
@@ -34,9 +27,6 @@ public class LoginSteps {
     private LoginPage loginPage;
     private HomePage homePage;
 
-    /**
-     * Cucumber Before hook - Sets up browser before each scenario.
-     */
     @Before("@Login")
     public void setUp() {
         logger.info("Setting up browser for Login scenario");
@@ -47,9 +37,6 @@ public class LoginSteps {
         logger.info("Browser setup completed");
     }
 
-    /**
-     * Cucumber After hook - Closes browser after each scenario.
-     */
     @After("@Login")
     public void tearDown() {
         logger.info("Tearing down browser after Login scenario");

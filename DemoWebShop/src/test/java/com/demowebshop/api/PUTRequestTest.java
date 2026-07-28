@@ -14,10 +14,6 @@ import io.qameta.allure.Story;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-/**
- * PUTRequestTest - Tests for all PUT API endpoints.
- * Updates existing products, users, and carts.
- */
 @Epic("API Testing")
 @Feature("PUT Requests")
 public class PUTRequestTest extends BaseAPI {
@@ -31,7 +27,6 @@ public class PUTRequestTest extends BaseAPI {
     public void testUpdateProduct() {
         logger.info("Testing PUT Update Product");
 
-        // Request body with updated product data
         String requestBody = "{"
                 + "\"title\": \"Updated Product by Automation\","
                 + "\"price\": 99.99,"
@@ -62,7 +57,6 @@ public class PUTRequestTest extends BaseAPI {
     public void testUpdateUser() {
         logger.info("Testing PUT Update User");
 
-        // Request body with updated user data
         String requestBody = "{"
                 + "\"email\": \"updated@automation.com\","
                 + "\"username\": \"updated_automation\","
@@ -104,7 +98,6 @@ public class PUTRequestTest extends BaseAPI {
     public void testUpdateCart() {
         logger.info("Testing PUT Update Cart");
 
-        // Request body with updated cart data
         String requestBody = "{"
                 + "\"userId\": 3,"
                 + "\"date\": \"2024-06-15\","

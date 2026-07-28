@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import com.demowebshop.base.BaseClass;
 import com.demowebshop.pages.LoginPage;
+import com.demowebshop.pages.HomePage;
 import com.demowebshop.utils.CSVReaderUtil;
 
 import io.qameta.allure.Description;
@@ -18,13 +19,6 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-/**
- * CSVDataDrivenTest - Data-driven test using CSV file for login scenarios.
- * Reads test data from LoginData.csv and iterates through multiple credential sets.
- *
- * @author DemoWebShop Automation Team
- * @version 1.0
- */
 @Epic("DemoWebShop Automation")
 @Feature("Data Driven - CSV")
 public class CSVDataDrivenTest extends BaseClass {
@@ -39,6 +33,9 @@ public class CSVDataDrivenTest extends BaseClass {
     public void verifyLoginWithCSVData() {
         logger.info("Starting verifyLoginWithCSVData test");
 
+        HomePage homePage = new HomePage(driver);
+        homePage.goToLogin();
+
         List<String[]> csvData = CSVReaderUtil.readCSVDataWithoutHeader(CSV_FILE_PATH);
         logger.info("Total CSV data rows: {}", csvData.size());
 
@@ -52,22 +49,22 @@ public class CSVDataDrivenTest extends BaseClass {
 
             LoginPage loginPage = new LoginPage(driver);
 
-            if (email != null && !email.isEmpty()) {
-                loginPage.enterEmail(email);
-            }
-            if (password != null && !password.isEmpty()) {
-                loginPage.enterPassword(password);
-            }
-            loginPage.clickLogin();
-
-            if (expectedResult.equalsIgnoreCase("success")) {
-                String title = driver.getTitle();
-                logger.info("Login successful, page title: {}", title);
-                Assert.assertNotNull(title, "Page should load after successful login");
-            } else {
-                Assert.assertTrue(loginPage.isLoginErrorDisplayed(),
-                        "Error message should display for invalid credentials - Row " + (i + 1));
-                logger.info("Login failed as expected for row {}", i + 1);
+            try {
+                HomePage resultPage = loginPage.login(email == null ? "" : email, password == null ? "" : password);
+                if (expectedResult.equalsIgnoreCase("success")) {
+                    Assert.assertTrue(resultPage.isUserLoggedIn(), "User should be logged in");
+                    resultPage.logout();
+                } else {
+                    Assert.fail("Login should have failed for invalid credentials - Row " + (i + 1));
+                }
+            } catch (Exception e) {
+                if (expectedResult.equalsIgnoreCase("success")) {
+                    throw e;
+                } else {
+                    Assert.assertTrue(loginPage.isLoginErrorDisplayed(),
+                            "Error message should display for invalid credentials - Row " + (i + 1));
+                    logger.info("Login failed as expected for row {}", i + 1);
+                }
             }
 
             driver.navigate().to(config.getUrl() + "login");
@@ -99,6 +96,9 @@ public class CSVDataDrivenTest extends BaseClass {
     public void verifyFirstRowLogin() {
         logger.info("Starting verifyFirstRowLogin test");
 
+        HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = homePage.goToLogin();
+
         String[] firstRow = CSVReaderUtil.getRow(CSV_FILE_PATH, 1);
 
         Assert.assertTrue(firstRow.length >= 3, "CSV row should have at least 3 columns");
@@ -108,7 +108,6 @@ public class CSVDataDrivenTest extends BaseClass {
 
         logger.info("Login attempt with first CSV row: {}", email);
 
-        LoginPage loginPage = new LoginPage(driver);
         loginPage.login(email, password);
 
         String title = driver.getTitle();
