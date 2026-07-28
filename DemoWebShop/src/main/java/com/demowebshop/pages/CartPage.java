@@ -138,16 +138,6 @@ public class CartPage extends BasePage {
         return total;
     }
 
-    public CheckoutPage proceedToCheckout() {
-        logger.info("Proceeding to checkout");
-        scrollToElement(termsCheckbox);
-        if (!termsCheckbox.isSelected()) {
-            clickElement(termsCheckbox);
-        }
-        clickElement(checkoutButton);
-        logger.info("Navigated to checkout");
-        return new CheckoutPage(driver);
-    }
 
     public HomePage continueShopping() {
         logger.info("Continuing shopping");

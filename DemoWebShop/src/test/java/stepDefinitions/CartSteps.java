@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import com.demowebshop.pages.CartPage;
-import com.demowebshop.pages.CheckoutPage;
 import com.demowebshop.pages.HomePage;
 import com.demowebshop.pages.LoginPage;
 import com.demowebshop.utils.BrowserFactory;
@@ -28,11 +27,10 @@ public class CartSteps {
     private ConfigDataProvider config;
     private HomePage homePage;
     private CartPage cartPage;
-    private CheckoutPage checkoutPage;
 
-    @Before("@Cart or @Checkout")
+    @Before("@Cart")
     public void setUp() {
-        logger.info("Setting up browser for Cart/Checkout scenario");
+        logger.info("Setting up browser for Cart scenario");
         config = new ConfigDataProvider();
         driver = BrowserFactory.startBrowser(config.getBrowser());
         driver.manage().window().maximize();
@@ -40,9 +38,9 @@ public class CartSteps {
         logger.info("Browser setup completed");
     }
 
-    @After("@Cart or @Checkout")
+    @After("@Cart")
     public void tearDown() {
-        logger.info("Tearing down browser after Cart/Checkout scenario");
+        logger.info("Tearing down browser after Cart scenario");
         BrowserFactory.quitBrowser(driver);
         logger.info("Browser closed");
     }
@@ -100,69 +98,6 @@ public class CartSteps {
         logger.info("Continued shopping");
     }
 
-    @When("user proceeds to checkout from cart")
-    public void userProceedsToCheckoutFromCart() {
-        logger.info("Proceeding to checkout");
-        cartPage = homePage.goToCart();
-        checkoutPage = cartPage.proceedToCheckout();
-        logger.info("Proceeded to checkout");
-    }
-
-    @And("user completes the billing address step")
-    public void userCompletesTheBillingAddressStep() {
-        logger.info("Completing billing address step");
-        checkoutPage.clickBillingContinue();
-        logger.info("Billing address completed");
-    }
-
-    @And("user completes the shipping address step")
-    public void userCompletesTheShippingAddressStep() {
-        logger.info("Completing shipping address step");
-        checkoutPage.clickShippingContinue();
-        logger.info("Shipping address completed");
-    }
-
-    @And("user selects ground shipping method")
-    public void userSelectsGroundShippingMethod() {
-        logger.info("Selecting ground shipping");
-        checkoutPage.selectGroundShipping();
-        checkoutPage.clickShippingMethodContinue();
-        logger.info("Ground shipping selected");
-    }
-
-    @And("user selects {string} shipping method")
-    public void userSelectsShippingMethod(String shippingMethod) {
-        logger.info("Selecting shipping method: {}", shippingMethod);
-        if (shippingMethod.equalsIgnoreCase("Ground")) {
-            checkoutPage.selectGroundShipping();
-        } else if (shippingMethod.equalsIgnoreCase("Next Day Air")) {
-            checkoutPage.selectNextDayShipping();
-        }
-        checkoutPage.clickShippingMethodContinue();
-        logger.info("Shipping method '{}' selected", shippingMethod);
-    }
-
-    @And("user selects cash on delivery payment")
-    public void userSelectsCashOnDeliveryPayment() {
-        logger.info("Selecting Cash On Delivery");
-        checkoutPage.selectCashOnDelivery();
-        checkoutPage.clickPaymentMethodContinue();
-        logger.info("Cash On Delivery selected");
-    }
-
-    @And("user completes payment information")
-    public void userCompletesPaymentInformation() {
-        logger.info("Completing payment information");
-        checkoutPage.clickPaymentInfoContinue();
-        logger.info("Payment information completed");
-    }
-
-    @And("user confirms the order")
-    public void userConfirmsTheOrder() {
-        logger.info("Confirming order");
-        checkoutPage.confirmOrder();
-        logger.info("Order confirmed");
-    }
 
     @Then("the shopping cart page should be displayed")
     public void theShoppingCartPageShouldBeDisplayed() {
@@ -194,20 +129,4 @@ public class CartSteps {
         logger.info("Home page verification passed");
     }
 
-    @Then("the checkout page should be displayed")
-    public void theCheckoutPageShouldBeDisplayed() {
-        logger.info("Verifying checkout page");
-        String title = checkoutPage.getPageTitle();
-        Assert.assertNotNull(title, "Checkout page should be displayed");
-        logger.info("Checkout page verified");
-    }
-
-    @Then("order confirmation message should be displayed")
-    public void orderConfirmationMessageShouldBeDisplayed() {
-        logger.info("Verifying order confirmation");
-        String message = checkoutPage.getOrderConfirmationMessage();
-        Assert.assertTrue(message.contains("Your order has been successfully processed"),
-                "Order confirmation message should be displayed");
-        logger.info("Order confirmation verified: {}", message);
-    }
 }

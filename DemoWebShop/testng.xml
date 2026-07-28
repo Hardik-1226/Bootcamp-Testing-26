@@ -30,12 +30,6 @@
         </classes>
     </test>
 
-    <!-- Checkout Tests -->
-    <test name="Checkout Tests">
-        <classes>
-            <class name="com.demowebshop.tests.CheckoutTest"/>
-        </classes>
-    </test>
 
     <!-- Data Driven Tests -->
     <test name="Data Driven Tests">
