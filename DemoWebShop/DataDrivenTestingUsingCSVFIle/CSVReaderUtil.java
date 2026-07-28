@@ -73,7 +73,7 @@ public class CSVReaderUtil {
             return allData.get(rowIndex);
         }
         logger.warn("Row index {} out of bounds for CSV: {}", rowIndex, filePath);
-        return new String[]{};
+        return new String[] {};
     }
 
     public static int getRowCount(String filePath) {

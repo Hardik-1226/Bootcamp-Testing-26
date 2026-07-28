@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-16T11:18:43 IST" name="Default suite" finished-at="2026-07-16T11:20:15 IST" duration-ms="91760">
+    <groups>
+    </groups>
+    <test started-at="2026-07-16T11:18:43 IST" name="Default test" finished-at="2026-07-16T11:20:15 IST" duration-ms="91760">
+      <class name="com.JavaLocators.Demo.A_OtherLocators">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.JavaLocators.Demo.A_OtherLocators@43bc63a3]" started-at="2026-07-16T11:18:43 IST" name="setUp" finished-at="2026-07-16T11:19:32 IST" duration-ms="48798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findElementByID()[pri:0, instance:com.JavaLocators.Demo.A_OtherLocators@43bc63a3]" started-at="2026-07-16T11:19:32 IST" name="findElementByID" finished-at="2026-07-16T11:20:15 IST" duration-ms="42858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementByID -->
+      </class> <!-- com.JavaLocators.Demo.A_OtherLocators -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

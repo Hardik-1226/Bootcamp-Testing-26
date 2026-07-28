@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1784783548256,4201,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,3685,0,2615
+1784783549241,3340,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,2828,0,1631
+1784783549039,4904,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,4631,0,2162
+1784783549441,4510,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,4510,0,1634
+1784783552473,1800,petstore,200,,NonGUITestCasesusingcsvfile 1-4,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1800,0,1526
+1784783552582,1781,petstore,200,,NonGUITestCasesusingcsvfile 1-9,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1781,0,1552
+1784783547868,6668,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,6386,0,6050
+1784783548067,6516,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,6475,0,5864
+1784783548838,5749,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,5448,0,5119
+1784783548653,5956,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,5955,0,5278
+1784783547853,6776,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,6772,0,4942
+1784783548464,6433,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,6425,0,5784
+1784783553953,1059,petstore,200,,NonGUITestCasesusingcsvfile 1-10,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1053,0,821
+1784783553945,1067,petstore,200,,NonGUITestCasesusingcsvfile 1-8,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1065,0,828
+1784783554277,971,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,122022,148,10,10,https://practicetestautomation.com/practice-test-login/,717,0,357
+1784783554539,977,petstore,200,,NonGUITestCasesusingcsvfile 1-2,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,971,0,719
+1784783554585,1229,petstore,200,,NonGUITestCasesusingcsvfile 1-3,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1228,0,785
+1784783554589,1234,petstore,200,,NonGUITestCasesusingcsvfile 1-7,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1234,0,805
+1784783554612,1258,petstore,200,,NonGUITestCasesusingcsvfile 1-6,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1256,0,874
+1784783554631,1291,petstore,200,,NonGUITestCasesusingcsvfile 1-1,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1289,0,863
+1784783555250,675,selenium,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,232,0,102
+1784783554365,1603,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,122029,148,10,10,https://practicetestautomation.com/practice-test-login/,1266,0,328
+1784783554898,1194,petstore,200,,NonGUITestCasesusingcsvfile 1-5,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,1194,0,967
+1784783555014,1104,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,122026,148,10,10,https://practicetestautomation.com/practice-test-login/,928,0,340
+1784783555930,354,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,18894,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,349,0,94
+1784783555972,313,selenium,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,170,0,116
+1784783556285,69,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,51,0,0
+1784783556119,305,selenium,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,157,0,79
+1784783555825,788,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,122026,148,10,10,https://practicetestautomation.com/practice-test-login/,630,0,280
+1784783556286,366,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,354,0,133
+1784783556652,78,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,61,0,0
+1784783555873,877,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,122026,148,10,10,https://practicetestautomation.com/practice-test-login/,639,0,261
+1784783555017,1736,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,121882,148,10,10,https://practicetestautomation.com/practice-test-login/,1491,0,337
+1784783556425,415,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,18942,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,381,0,105
+1784783556841,78,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,63,0,0
+1784783556615,314,selenium,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,158,0,112
+1784783556751,345,selenium,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,155,0,89
+1784783555816,1299,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,122028,148,10,10,https://practicetestautomation.com/practice-test-login/,1114,0,240
+1784783556753,400,selenium,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,176,0,90
+1784783555519,1680,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,122035,148,10,10,https://practicetestautomation.com/practice-test-login/,1514,0,446
+1784783556930,426,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,18902,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,399,0,174
+1784783555927,1446,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,121871,148,10,10,https://practicetestautomation.com/practice-test-login/,1266,0,313
+1784783556355,1041,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1041,0,714
+1784783557097,413,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,18955,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,311,0,96
+1784783556093,1426,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,122024,148,10,10,https://practicetestautomation.com/practice-test-login/,1199,0,278
+1784783557154,387,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,18943,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,370,0,94
+1784783557356,467,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,437,0,0
+1784783557117,724,selenium,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,159,0,97
+1784783557511,330,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,301,0,0
+1784783557541,306,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,282,0,0
+1784783556732,1118,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1118,0,617
+1784783557398,574,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,395,0,0
+1784783557201,830,selenium,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,207,0,97
+1784783556921,1149,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1149,0,667
+1784783557850,329,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,225,0,0
+1784783558071,295,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,175,0,0
+1784783557846,636,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,18902,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,606,0,334
+1784783557375,1139,selenium,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,770,0,486
+1784783557521,1185,selenium,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,732,0,515
+1784783557972,825,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,820,0,0
+1784783558797,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-4,text,false,,871,0,10,10,null,0,0,0
+1784783558033,855,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,831,0,218
+1784783558180,721,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,718,0,0
+1784783558901,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-9,text,false,,871,0,10,10,null,0,0,0
+1784783558482,593,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,406,0,0
+1784783558889,248,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,196,0,0
+1784783558798,345,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,341,0,0
+1784783558707,576,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,550,0,314
+1784783558515,769,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,18894,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,728,0,358
+1784783558902,477,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,474,0,0
+1784783558367,1016,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,1015,0,0
+1784783559384,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-8,text,false,,871,0,10,10,null,0,0,0
+1784783559144,243,petstore,200,,NonGUITestCasesusingcsvfile 1-4,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,243,0,0
+1784783557824,1568,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1568,0,1213
+1784783557849,1544,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1544,0,1188
+1784783557843,1550,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1550,0,1195
+1784783559285,118,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,68,0,0
+1784783559286,120,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,76,0,0
+1784783559396,210,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,94,0,0
+1784783559394,216,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,98,0,0
+1784783559393,217,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,111,0,0
+1784783559380,236,petstore,200,,NonGUITestCasesusingcsvfile 1-9,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,234,0,0
+1784783559385,346,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,341,0,0
+1784783559390,458,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,122030,148,10,10,https://practicetestautomation.com/practice-test-login/,385,0,0
+1784783559848,201,selenium,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,44,0,0
+1784783559731,320,petstore,200,,NonGUITestCasesusingcsvfile 1-8,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,320,0,0
+1784783559076,1003,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1002,0,664
+1784783559138,982,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,982,0,643
+1784783559616,592,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,122020,148,10,10,https://practicetestautomation.com/practice-test-login/,434,0,0
+1784783560081,376,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,111,0,0
+1784783560121,345,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,89,0,0
+1784783559607,877,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,876,0,0
+1784783560484,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-10,text,false,,871,0,10,10,null,0,0,0
+1784783559612,873,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,873,0,0
+1784783560486,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-7,text,false,,871,0,10,10,null,0,0,0
+1784783560049,457,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,457,0,0
+1784783560209,300,selenium,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,72,0,0
+1784783559612,902,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,902,0,0
+1784783559404,1112,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1112,0,676
+1784783560514,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-6,text,false,,871,0,10,10,null,0,0,0
+1784783559407,1123,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,5823,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,1123,0,694
+1784783560058,481,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,122022,148,10,10,https://practicetestautomation.com/practice-test-login/,453,0,0
+1784783560507,105,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,61,0,0
+1784783560540,107,selenium,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,41,0,0
+1784783560517,141,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,51,0,0
+1784783560530,162,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,53,0,0
+1784783560510,239,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,18894,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,229,0,0
+1784783560485,362,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,361,0,0
+1784783560486,366,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,366,0,0
+1784783560518,354,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,348,0,0
+1784783560750,146,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,102,0,0
+1784783560647,250,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,250,0,0
+1784783560613,331,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,331,0,0
+1784783560898,241,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,38,0,0
+1784783560458,705,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,703,0,0
+1784783561163,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-3,text,false,,871,0,10,10,null,0,0,0
+1784783560853,313,petstore,200,,NonGUITestCasesusingcsvfile 1-7,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,312,0,0
+1784783560873,295,petstore,200,,NonGUITestCasesusingcsvfile 1-6,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,295,0,0
+1784783560467,703,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,696,0,0
+1784783560848,323,petstore,200,,NonGUITestCasesusingcsvfile 1-10,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,317,0,0
+1784783561175,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-2,text,false,,871,0,10,10,null,0,0,0
+1784783560896,306,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,306,0,0
+1784783560945,266,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,202,0,0
+1784783561204,114,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,69,0,0
+1784783561141,342,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,342,0,0
+1784783560693,795,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,790,0,0
+1784783561488,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-1,text,false,,871,0,10,10,null,0,0,0
+1784783561164,332,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,332,0,0
+1784783560659,842,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,812,0,0
+1784783561502,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-5,text,false,,871,0,10,10,null,0,0,0
+1784783561176,342,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,337,0,0
+1784783561483,317,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,55,0,0
+1784783561169,632,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,122022,148,10,10,https://practicetestautomation.com/practice-test-login/,405,0,0
+1784783561518,283,petstore,200,,NonGUITestCasesusingcsvfile 1-2,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,283,0,0
+1784783561175,631,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,122030,148,10,10,https://practicetestautomation.com/practice-test-login/,399,0,0
+1784783561497,317,petstore,200,,NonGUITestCasesusingcsvfile 1-3,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,317,0,0
+1784783561489,328,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,326,0,0
+1784783561502,324,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,324,0,0
+1784783561212,625,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,625,0,0
+1784783561838,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-4,text,false,,871,0,10,10,null,0,0,0
+1784783561807,311,selenium,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,145,0,0
+1784783561803,315,selenium,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,134,0,0
+1784783561826,313,petstore,200,,NonGUITestCasesusingcsvfile 1-5,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,310,0,0
+1784783561818,326,petstore,200,,NonGUITestCasesusingcsvfile 1-1,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,324,0,0
+1784783561319,839,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,837,0,0
+1784783562158,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-9,text,false,,871,0,10,10,null,0,0,0
+1784783561838,392,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,389,0,0
+1784783562119,244,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,18894,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,241,0,0
+1784783562119,261,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,18949,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,239,0,0
+1784783561174,1284,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,121873,148,10,10,https://practicetestautomation.com/practice-test-login/,1167,0,0
+1784783562364,114,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,57,0,0
+1784783562159,320,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,320,0,0
+1784783562380,106,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,84,0,0
+1784783562230,256,petstore,200,,NonGUITestCasesusingcsvfile 1-4,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,256,0,0
+1784783561802,689,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,689,0,0
+1784783562491,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-8,text,false,,871,0,10,10,null,0,0,0
+1784783562140,458,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,122020,148,10,10,https://practicetestautomation.com/practice-test-login/,346,0,0
+1784783562458,165,selenium,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,54,0,0
+1784783562480,295,petstore,200,,NonGUITestCasesusingcsvfile 1-9,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,294,0,0
+1784783562479,378,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,377,0,0
+1784783562492,371,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,370,0,0
+1784783561814,1055,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,122022,148,10,10,https://practicetestautomation.com/practice-test-login/,987,0,0
+1784783562487,385,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,385,0,0
+1784783562624,263,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,18942,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,246,0,0
+1784783562487,463,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,122028,148,10,10,https://practicetestautomation.com/practice-test-login/,408,0,0
+1784783562599,352,selenium,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,91,0,0
+1784783561802,1185,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,122027,148,10,10,https://practicetestautomation.com/practice-test-login/,1108,0,0
+1784783562144,1074,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,121869,148,10,10,https://practicetestautomation.com/practice-test-login/,947,0,0
+1784783562887,443,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,412,0,0
+1784783562856,477,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,340,0,0
+1784783562872,480,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,364,0,0
+1784783562863,507,petstore,200,,NonGUITestCasesusingcsvfile 1-8,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,507,0,0
+1784783562949,692,selenium,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,484,0,0
+1784783562869,814,selenium,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,351,0,0
+1784783562774,909,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,122026,148,10,10,https://practicetestautomation.com/practice-test-login/,863,0,0
+1784783562951,734,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,734,0,0
+1784783563218,708,selenium,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,470,0,0
+1784783562987,952,selenium,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,490,0,0
+1784783563686,253,selenium,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,86,0,0
+1784783563641,298,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,18963,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,298,0,0
+1784783563687,254,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,132,0,0
+1784783563685,285,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,18902,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,276,0,0
+1784783563331,639,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,639,0,0
+1784783563371,694,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,122022,148,10,10,https://practicetestautomation.com/practice-test-login/,599,0,0
+1784783563940,218,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,174,0,0
+1784783563334,931,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,928,0,0
+1784783564265,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-7,text,false,,871,0,10,10,null,0,0,0
+1784783563353,915,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,909,0,0
+1784783564268,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-6,text,false,,871,0,10,10,null,0,0,0
+1784783563939,486,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,18949,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,357,0,0
+1784783563940,487,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,18902,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,483,0,0
+1784783563942,487,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,487,0,0
+1784783563927,502,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,502,0,0
+1784783564065,493,selenium,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,369,0,0
+1784783563971,587,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,473,0,0
+1784783563970,616,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,478,0,0
+1784783564158,568,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,568,0,0
+1784783564429,319,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,270,0,0
+1784783564430,361,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,290,0,0
+1784783564426,384,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,289,0,0
+1784783564430,462,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,294,0,0
+1784783564266,638,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,636,0,0
+1784783564269,641,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,640,0,0
+1784783564726,395,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,321,0,0
+1784783564558,655,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,18963,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,626,0,0
+1784783564586,725,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,724,0,0
+1784783564749,564,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,564,0,0
+1784783564911,402,petstore,200,,NonGUITestCasesusingcsvfile 1-6,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,402,0,0
+1784783564904,410,petstore,200,,NonGUITestCasesusingcsvfile 1-7,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,410,0,0
+1784783565214,101,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,90,0,0
+1784783564792,524,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,524,0,0
+1784783564811,552,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,552,0,0
+1784783565311,75,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,50,0,0
+1784783565313,149,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,72,0,0
+1784783565317,236,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,87,0,0
+1784783565363,222,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,183,0,0
+1784783564558,1028,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,1027,0,0
+1784783565586,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-10,text,false,,871,0,10,10,null,0,0,0
+1784783565315,332,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,332,0,0
+1784783564893,824,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,824,0,0
+1784783565718,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-5,text,false,,871,0,10,10,null,0,0,0
+1784783565313,588,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,122026,148,10,10,https://practicetestautomation.com/practice-test-login/,402,0,0
+1784783565122,779,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,779,0,0
+1784783565901,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-4,text,false,,871,0,10,10,null,0,0,0
+1784783565314,605,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,122022,148,10,10,https://practicetestautomation.com/practice-test-login/,383,0,0
+1784783565647,292,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,273,0,0
+1784783565591,354,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,352,0,0
+1784783565719,672,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,671,0,0
+1784783565901,550,selenium,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,399,0,0
+1784783565587,868,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,863,0,0
+1784783565465,990,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,990,0,0
+1784783565386,1069,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,1069,0,0
+1784783566455,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-2,text,false,,871,0,10,10,null,0,0,0
+1784783566455,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-3,text,false,,871,0,10,10,null,0,0,0
+1784783566455,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-9,text,false,,871,0,10,10,null,0,0,0
+1784783565945,513,petstore,200,,NonGUITestCasesusingcsvfile 1-10,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,513,0,0
+1784783565554,905,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,905,0,0
+1784783566459,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-1,text,false,,871,0,10,10,null,0,0,0
+1784783565920,539,selenium,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,454,0,0
+1784783565902,561,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,560,0,0
+1784783566392,264,petstore,200,,NonGUITestCasesusingcsvfile 1-5,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,264,0,0
+1784783566452,267,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,18922,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,256,0,0
+1784783566461,299,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,298,0,0
+1784783566463,304,petstore,200,,NonGUITestCasesusingcsvfile 1-4,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,303,0,0
+1784783565940,852,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,851,0,0
+1784783566792,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-8,text,false,,871,0,10,10,null,0,0,0
+1784783566456,345,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,344,0,0
+1784783566456,345,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,345,0,0
+1784783566720,86,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,42,0,0
+1784783566457,355,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,355,0,0
+1784783566459,367,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,366,0,0
+1784783566762,92,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,50,0,0
+1784783566459,498,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,121865,148,10,10,https://practicetestautomation.com/practice-test-login/,431,0,0
+1784783566801,265,petstore,200,,NonGUITestCasesusingcsvfile 1-2,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,265,0,0
+1784783566657,414,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,122016,148,10,10,https://practicetestautomation.com/practice-test-login/,339,0,0
+1784783566802,272,petstore,200,,NonGUITestCasesusingcsvfile 1-3,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,271,0,0
+1784783566812,266,petstore,200,,NonGUITestCasesusingcsvfile 1-9,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,266,0,0
+1784783566826,273,petstore,200,,NonGUITestCasesusingcsvfile 1-1,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,273,0,0
+1784783566798,316,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,314,0,0
+1784783566806,352,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,351,0,0
+1784783566958,201,selenium,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,99,0,0
+1784783566767,432,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,122030,148,10,10,https://practicetestautomation.com/practice-test-login/,384,0,0
+1784783566854,350,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,350,0,0
+1784783567158,259,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,101884,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,183,0,0
+1784783567205,259,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,181,0,0
+1784783567199,274,selenium,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,172,0,0
+1784783567115,405,petstore,200,,NonGUITestCasesusingcsvfile 1-8,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,405,0,0
+1784783567071,453,selenium,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,163,0,0
+1784783567160,398,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,18963,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,386,0,0
+1784783567067,496,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,122026,148,10,10,https://practicetestautomation.com/practice-test-login/,462,0,0
+1784783567076,510,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,122032,148,10,10,https://practicetestautomation.com/practice-test-login/,463,0,0
+1784783567079,589,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,122028,148,10,10,https://practicetestautomation.com/practice-test-login/,513,0,0
+1784783567559,160,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,136,0,0
+1784783567100,622,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,121869,148,10,10,https://practicetestautomation.com/practice-test-login/,528,0,0
+1784783567473,368,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,368,0,0
+1784783567669,212,selenium,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,49,0,0
+1784783567521,445,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,122040,148,10,10,https://practicetestautomation.com/practice-test-login/,385,0,0
+1784783567587,388,selenium,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,126,0,0
+1784783567720,414,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,413,0,0
+1784783567722,412,selenium,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,170,0,0
+1784783567524,613,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,18929,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,613,0,0
+1784783567563,574,selenium,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,161,0,0
+1784783567464,813,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,808,0,0
+1784783568279,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-7,text,false,,871,0,10,10,null,0,0,0
+1784783567842,441,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,298,0,0
+1784783567417,908,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,851,0,0
+1784783568327,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-6,text,false,,871,0,10,10,null,0,0,0
+1784783567968,364,selenium,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,240,0,0
+1784783568138,212,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,177,0,0
+1784783567883,474,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,18893,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,474,0,0
+1784783567976,384,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,18894,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,384,0,0
+1784783568136,224,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,190,0,0
+1784783568139,417,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,18957,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,257,0,0
+1784783568358,212,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,201,0,0
+1784783568136,434,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,434,0,0
+1784783568280,318,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,317,0,0
+1784783568360,238,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,212,0,0
+1784783568284,338,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,338,0,0
+1784783568332,452,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,451,0,0
+1784783568570,223,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,199,0,0
+1784783568327,471,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,470,0,0
+1784783568350,465,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,465,0,0
+1784783568556,269,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,66,0,0
+1784783568622,236,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,171,0,0
+1784783568598,283,petstore,200,,NonGUITestCasesusingcsvfile 1-7,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,283,0,0
+1784783568570,333,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,333,0,0
+1784783568784,156,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,116,0,0
+1784783568598,373,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,373,0,0
+1784783568815,194,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,111,0,0
+1784783568903,106,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,57,0,0
+1784783568798,299,petstore,200,,NonGUITestCasesusingcsvfile 1-6,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,299,0,0
+1784783568971,132,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,69,0,0
+1784783568360,789,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,789,0,0
+1784783569150,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-10,text,false,,871,0,10,10,null,0,0,0
+1784783568794,380,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,379,0,0
+1784783568826,361,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,361,0,0
+1784783568940,316,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,316,0,0
+1784783568882,415,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,122028,148,10,10,https://practicetestautomation.com/practice-test-login/,354,0,0
+1784783569187,111,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,101884,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,76,0,0
+1784783569174,164,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,66,0,0
+1784783569150,288,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,287,0,0
+1784783569257,183,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,77,0,0
+1784783568859,602,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,599,0,0
+1784783569461,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-4,text,false,,871,0,10,10,null,0,0,0
+1784783569098,422,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,122024,148,10,10,https://practicetestautomation.com/practice-test-login/,354,0,0
+1784783569298,234,selenium,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,175,0,0
+1784783569010,662,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,659,0,0
+1784783569672,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-9,text,false,,871,0,10,10,null,0,0,0
+1784783569520,164,selenium,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,112,0,0
+1784783569010,675,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,675,0,0
+1784783569686,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-5,text,false,,871,0,10,10,null,0,0,0
+1784783569439,253,petstore,200,,NonGUITestCasesusingcsvfile 1-10,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,251,0,0
+1784783569103,592,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,591,0,0
+1784783569695,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-3,text,false,,871,0,10,10,null,0,0,0
+1784783569532,285,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,18956,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,273,0,0
+1784783569462,445,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,439,0,0
+1784783569818,122,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,63,0,0
+1784783569684,269,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,269,0,0
+1784783569673,399,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,397,0,0
+1784783569954,118,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,42,0,0
+1784783569338,777,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,777,0,0
+1784783569686,420,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,402,0,0
+1784783569696,412,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,412,0,0
+1784783569299,818,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,818,0,0
+1784783570118,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-1,text,false,,871,0,10,10,null,0,0,0
+1784783570118,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-2,text,false,,871,0,10,10,null,0,0,0
+1784783569907,235,petstore,200,,NonGUITestCasesusingcsvfile 1-4,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,235,0,0
+1784783569692,465,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,121871,148,10,10,https://practicetestautomation.com/practice-test-login/,424,0,0
+1784783569441,756,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,756,0,0
+1784783570198,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-8,text,false,,871,0,10,10,null,0,0,0
+1784783569940,328,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,328,0,0
+1784783570158,114,selenium,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,59,0,0
+1784783570073,234,petstore,200,,NonGUITestCasesusingcsvfile 1-9,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,231,0,0
+1784783570117,237,petstore,200,,NonGUITestCasesusingcsvfile 1-5,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,236,0,0
+1784783570268,105,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,101884,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,61,0,0
+1784783570074,313,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,312,0,0
+1784783570118,271,petstore,200,,NonGUITestCasesusingcsvfile 1-3,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,271,0,0
+1784783570119,321,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,321,0,0
+1784783570120,329,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,327,0,0
+1784783570387,75,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,101884,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,44,0,0
+1784783570199,309,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,307,0,0
+1784783570273,242,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,18956,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,217,0,0
+1784783570515,94,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,48,0,0
+1784783570143,470,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,122030,148,10,10,https://practicetestautomation.com/practice-test-login/,384,0,0
+1784783570440,266,petstore,200,,NonGUITestCasesusingcsvfile 1-1,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,266,0,0
+1784783570449,260,petstore,200,,NonGUITestCasesusingcsvfile 1-2,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,260,0,0
+1784783570613,178,selenium,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,37,0,0
+1784783570308,485,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,122022,148,10,10,https://practicetestautomation.com/practice-test-login/,342,0,0
+1784783570508,441,petstore,200,,NonGUITestCasesusingcsvfile 1-8,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,441,0,0
+1784783570355,598,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,122024,148,10,10,https://practicetestautomation.com/practice-test-login/,353,0,0
+1784783570389,574,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,122028,148,10,10,https://practicetestautomation.com/practice-test-login/,408,0,0
+1784783570610,354,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,354,0,0
+1784783570373,604,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,603,0,0
+1784783570977,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-7,text,false,,871,0,10,10,null,0,0,0
+1784783570793,309,selenium,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,172,0,0
+1784783570792,425,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,18929,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,395,0,0
+1784783570964,257,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,101884,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,162,0,0
+1784783570707,534,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,121871,148,10,10,https://practicetestautomation.com/practice-test-login/,478,0,0
+1784783570709,540,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,122026,148,10,10,https://practicetestautomation.com/practice-test-login/,514,0,0
+1784783570462,801,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,801,0,0
+1784783571263,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-6,text,false,,871,0,10,10,null,0,0,0
+1784783570981,382,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,370,0,0
+1784783570950,459,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,122020,148,10,10,https://practicetestautomation.com/practice-test-login/,363,0,0
+1784783571103,316,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,18894,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,313,0,0
+1784783571220,209,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,164,0,0
+1784783570953,501,selenium,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,140,0,0
+1784783570964,629,selenium,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,158,0,0
+1784783571264,472,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,471,0,0
+1784783571363,435,petstore,200,,NonGUITestCasesusingcsvfile 1-7,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,434,0,0
+1784783571241,910,selenium,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,207,0,0
+1784783571250,955,selenium,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,299,0,0
+1784783571594,619,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,619,0,0
+1784783571454,760,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,18902,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,751,0,0
+1784783571221,993,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,993,0,0
+1784783572214,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-10,text,false,,871,0,10,10,null,0,0,0
+1784783571736,478,petstore,200,,NonGUITestCasesusingcsvfile 1-6,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,478,0,0
+1784783571430,784,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,784,0,0
+1784783571420,795,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,448,0,0
+1784783571409,878,selenium,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,422,0,0
+1784783571798,662,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,122030,148,10,10,https://practicetestautomation.com/practice-test-login/,515,0,0
+1784783572152,414,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,18901,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,414,0,0
+1784783572205,361,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,18942,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,304,0,0
+1784783572214,352,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,248,0,0
+1784783572215,352,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,236,0,0
+1784783572214,375,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,99373,132,10,10,https://www.selenium.dev/documentation/,250,0,0
+1784783572287,339,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,18956,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,319,0,0
+1784783572214,438,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,434,0,0
+1784783572215,576,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,576,0,0
+1784783572461,339,selenium,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,266633,128,10,10,https://www.selenium.dev/downloads/,209,0,0
+1784783572215,619,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,122028,148,10,10,https://practicetestautomation.com/practice-test-login/,593,0,0
+1784783572566,390,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,234,0,0
+1784783572566,525,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,242,0,0
+1784783572626,472,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,211,0,0
+1784783572653,445,petstore,200,,NonGUITestCasesusingcsvfile 1-10,text,true,,4544,219,10,10,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,445,0,0
+1784783572566,542,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,541,0,0
+1784783572590,518,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,518,0,0
+1784783572791,326,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,161,0,0
+1784783572800,317,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,18902,138,10,10,https://jmeter.apache.org/download_jmeter.cgi,309,0,0
+1784783572834,365,selenium,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,266632,128,10,10,https://www.selenium.dev/downloads/,313,0,0
+1784783573117,250,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,99374,132,10,10,https://www.selenium.dev/documentation/,204,0,0
+1784783573108,278,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,101883,146,10,10,https://jmeter.apache.org/usermanual/get-started.html,224,0,0
+1784783572957,501,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,5796,154,10,10,https://www.login.hiox.com/login?referrer=easycalculation.com,501,0,0
+1784783572567,912,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-4,text,true,,24254,150,10,10,https://www.easycalculation.com/unit-conversion/index.php,909,0,0
+1784783573479,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-4,text,false,,871,0,10,10,null,0,0,0
+1784783573199,299,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,18949,138,9,9,https://jmeter.apache.org/download_jmeter.cgi,280,0,0
+1784783573108,428,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,101884,146,9,9,https://jmeter.apache.org/usermanual/get-started.html,240,0,0
+1784783573098,459,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,5796,154,9,9,https://www.login.hiox.com/login?referrer=easycalculation.com,459,0,0
+1784783573092,470,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,5796,154,9,9,https://www.login.hiox.com/login?referrer=easycalculation.com,470,0,0
+1784783573498,142,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,99373,132,9,9,https://www.selenium.dev/documentation/,98,0,0
+1784783573458,200,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,101883,146,9,9,https://jmeter.apache.org/usermanual/get-started.html,90,0,0
+1784783573563,128,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,101884,146,9,9,https://jmeter.apache.org/usermanual/get-started.html,90,0,0
+1784783573557,141,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,101884,146,9,9,https://jmeter.apache.org/usermanual/get-started.html,82,0,0
+1784783573098,603,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,121875,148,9,9,https://practicetestautomation.com/practice-test-login/,543,0,0
+1784783573367,442,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,5796,154,9,9,https://www.login.hiox.com/login?referrer=easycalculation.com,442,0,0
+1784783573117,799,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-9,text,true,,24254,150,9,9,https://www.easycalculation.com/unit-conversion/index.php,795,0,0
+1784783573916,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-9,text,false,,871,0,9,9,null,0,0,0
+1784783573701,220,selenium,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,266632,128,8,8,https://www.selenium.dev/downloads/,138,0,0
+1784783573810,122,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,101884,146,8,8,https://jmeter.apache.org/usermanual/get-started.html,67,0,0
+1784783573640,392,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,5796,154,8,8,https://www.login.hiox.com/login?referrer=easycalculation.com,392,0,0
+1784783573387,727,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,8,8,https://www.easycalculation.com/unit-conversion/index.php,723,0,0
+1784783574114,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-3,text,false,,871,0,8,8,null,0,0,0
+1784783574032,115,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,101884,146,8,8,https://jmeter.apache.org/usermanual/get-started.html,64,0,0
+1784783573537,632,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,8,8,https://www.easycalculation.com/unit-conversion/index.php,630,0,0
+1784783574169,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-5,text,false,,871,0,8,8,null,0,0,0
+1784783573921,275,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,18894,138,8,8,https://jmeter.apache.org/download_jmeter.cgi,260,0,0
+1784783574196,263,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,99373,132,8,8,https://www.selenium.dev/documentation/,47,0,0
+1784783573659,800,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,8,8,https://www.easycalculation.com/unit-conversion/index.php,800,0,0
+1784783574460,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-1,text,false,,871,0,8,8,null,0,0,0
+1784783574115,346,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,8,8,https://www.easycalculation.com/unit-conversion/index.php,346,0,0
+1784783573692,773,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,8,8,https://www.easycalculation.com/unit-conversion/index.php,773,0,0
+1784783573698,767,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-8,text,true,,24254,150,8,8,https://www.easycalculation.com/unit-conversion/index.php,767,0,0
+1784783574465,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-8,text,false,,871,0,8,8,null,0,0,0
+1784783574465,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-2,text,false,,871,0,7,7,null,0,0,0
+1784783574170,315,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,7,7,https://www.easycalculation.com/unit-conversion/index.php,315,0,0
+1784783573932,789,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-7,text,true,,24254,150,7,7,https://www.easycalculation.com/unit-conversion/index.php,735,0,0
+1784783574721,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-7,text,false,,871,0,7,7,null,0,0,0
+1784783574464,266,petstore,200,,NonGUITestCasesusingcsvfile 1-3,text,true,,4544,219,6,6,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,266,0,0
+1784783574147,621,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-6,text,true,,24254,150,6,6,https://www.easycalculation.com/unit-conversion/index.php,621,0,0
+1784783574769,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-6,text,false,,871,0,6,6,null,0,0,0
+1784783574460,330,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,5796,154,5,5,https://www.login.hiox.com/login?referrer=easycalculation.com,330,0,0
+1784783574460,341,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,5,5,https://www.easycalculation.com/unit-conversion/index.php,339,0,0
+1784783574486,347,petstore,200,,NonGUITestCasesusingcsvfile 1-5,text,true,,4544,219,5,5,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,346,0,0
+1784783574471,399,EasyCalculation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,5,5,https://www.easycalculation.com/unit-conversion/index.php,398,0,0
+1784783574791,126,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,101884,146,5,5,https://jmeter.apache.org/usermanual/get-started.html,68,0,0
+1784783574802,266,petstore,200,,NonGUITestCasesusingcsvfile 1-1,text,true,,4544,219,5,5,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,266,0,0
+1784783574871,245,petstore,200,,NonGUITestCasesusingcsvfile 1-2,text,true,,4544,219,5,5,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8186F6D1B031A0ECD714C1B4B0B53213?viewCategory=&categoryId=FISH,245,0,0
+1784783574731,421,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,122024,148,5,5,https://practicetestautomation.com/practice-test-login/,360,0,0
+1784783574833,436,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,122023,148,5,5,https://practicetestautomation.com/practice-test-login/,368,0,0
+1784783575153,276,selenium,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,266633,128,5,5,https://www.selenium.dev/downloads/,61,0,0
+1784783574917,615,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-10,text,true,,24254,150,5,5,https://www.easycalculation.com/unit-conversion/index.php,613,0,0
+1784783575532,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-10,text,false,,871,0,5,5,null,0,0,0
+1784783575069,506,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,121875,148,4,4,https://practicetestautomation.com/practice-test-login/,398,0,0
+1784783575116,647,practiceautomation,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,122020,148,4,4,https://practicetestautomation.com/practice-test-login/,422,0,0
+1784783575269,798,selenium,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,266633,128,4,4,https://www.selenium.dev/downloads/,135,0,0
+1784783575430,920,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,18901,138,4,4,https://jmeter.apache.org/download_jmeter.cgi,920,0,0
+1784783575576,825,selenium,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,266633,128,4,4,https://www.selenium.dev/downloads/,660,0,0
+1784783575764,677,selenium,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,266633,128,4,4,https://www.selenium.dev/downloads/,484,0,0
+1784783576068,412,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,18893,138,4,4,https://jmeter.apache.org/download_jmeter.cgi,412,0,0
+1784783576351,272,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,99374,132,4,4,https://www.selenium.dev/documentation/,185,0,0
+1784783576482,156,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,99374,132,4,4,https://www.selenium.dev/documentation/,100,0,0
+1784783576402,309,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,18935,138,4,4,https://jmeter.apache.org/download_jmeter.cgi,290,0,0
+1784783576442,320,jmeter,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,18902,138,4,4,https://jmeter.apache.org/download_jmeter.cgi,312,0,0
+1784783576711,61,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,99374,132,4,4,https://www.selenium.dev/documentation/,32,0,0
+1784783576763,168,selinumdocument,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,99374,132,4,4,https://www.selenium.dev/documentation/,134,0,0
+1784783576623,315,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,5796,154,4,4,https://www.login.hiox.com/login?referrer=easycalculation.com,315,0,0
+1784783576638,300,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,5796,154,4,4,https://www.login.hiox.com/login?referrer=easycalculation.com,300,0,0
+1784783576938,98,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,101884,146,4,4,https://jmeter.apache.org/usermanual/get-started.html,65,0,0
+1784783576939,149,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,101884,146,4,4,https://jmeter.apache.org/usermanual/get-started.html,75,0,0
+1784783576772,392,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,5796,154,4,4,https://www.login.hiox.com/login?referrer=easycalculation.com,392,0,0
+1784783576932,326,HTTP Requeseasycalculatorflogin,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,5796,154,4,4,https://www.login.hiox.com/login?referrer=easycalculation.com,326,0,0
+1784783577164,112,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,101883,146,4,4,https://jmeter.apache.org/usermanual/get-started.html,56,0,0
+1784783577259,98,jmeter2,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,101884,146,4,4,https://jmeter.apache.org/usermanual/get-started.html,68,0,0
+1784783577037,700,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-3,text,true,,24254,150,4,4,https://www.easycalculation.com/unit-conversion/index.php,679,0,0
+1784783577737,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-3,text,false,,871,0,4,4,null,0,0,0
+1784783577088,689,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-5,text,true,,24254,150,3,3,https://www.easycalculation.com/unit-conversion/index.php,684,0,0
+1784783577777,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-5,text,false,,871,0,3,3,null,0,0,0
+1784783577276,643,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-1,text,true,,24254,150,2,2,https://www.easycalculation.com/unit-conversion/index.php,635,0,0
+1784783577919,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-1,text,false,,871,0,2,2,null,0,0,0
+1784783577357,577,coversioneasycalculator,200,OK,NonGUITestCasesusingcsvfile 1-2,text,true,,24254,150,1,1,https://www.easycalculation.com/unit-conversion/index.php,567,0,0
+1784783577933,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Unrecognized IPv6 address format,NonGUITestCasesusingcsvfile 1-2,text,false,,871,0,1,1,null,0,0,0

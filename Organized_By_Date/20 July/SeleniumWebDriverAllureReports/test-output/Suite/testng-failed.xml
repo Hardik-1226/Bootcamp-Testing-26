@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SeleniumWebDriver.Actions.TestScrollUpandDown">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.SeleniumWebDriver.Actions.TestScrollUpandDown -->
+      <class name="com.navigationcommands.Demo.A_NavigationCommands">
+        <methods>
+          <include name="NavigateDemo"/>
+          <include name="NavigateBackDemo"/>
+          <include name="NavigateForwardDemo"/>
+        </methods>
+      </class> <!-- com.navigationcommands.Demo.A_NavigationCommands -->
+      <class name="com.navigationcommands.Demo.B_BrowserNavigationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NavigationTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.navigationcommands.Demo.B_BrowserNavigationTest -->
+      <class name="com.SeleniumWebDriver.LocatorsDemo.LocatorClassNameTest">
+        <methods>
+          <include name="classTest"/>
+        </methods>
+      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.LocatorClassNameTest -->
+      <class name="com.SeleniumWebDriver.Actions.MouseOverMoments">
+        <methods>
+          <include name="mouseover"/>
+        </methods>
+      </class> <!-- com.SeleniumWebDriver.Actions.MouseOverMoments -->
+      <class name="com.SeleniumWebDriver.LocatorsDemo.IDNameXpath">
+        <methods>
+          <include name="URLComparison"/>
+        </methods>
+      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.IDNameXpath -->
+      <class name="com.MFrames.Demo.CountFrames">
+        <methods>
+          <include name="setup"/>
+          <include name="launchSite"/>
+        </methods>
+      </class> <!-- com.MFrames.Demo.CountFrames -->
+      <class name="com.Radiobutton.Examples.RadioButtonsTest">
+        <methods>
+          <include name="SpiceJet"/>
+        </methods>
+      </class> <!-- com.Radiobutton.Examples.RadioButtonsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

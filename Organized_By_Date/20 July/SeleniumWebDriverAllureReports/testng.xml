@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testngx .org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.MFrames.Demo.MultipleFrames"/>
+      <class name="com.SeleniumWebDriver.Actions.MouseOverMoments"/>
+      <class name="com.SeleniumWebDriver.LocatorsDemo.LocatorClassNameTest"/>
+      <class name="com.SeleniumWebDriver.Actions.TestScrollUpandDown"/>
+      <class name="com.SeleniumWebDriver.LocatorsDemo.IDNameXpath"/>
+      <class name="com.MFrames.Demo.CountFrames"/>
+      <class name="com.navigationcommands.Demo.A_NavigationCommands"/>
+      <class name="com.navigationcommands.Demo.B_BrowserNavigationTest"/>
+      <class name="com.Radiobutton.Examples.RadioButtonsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
