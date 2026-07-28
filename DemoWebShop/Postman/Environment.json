@@ -1,0 +1,55 @@
+{
+	"id": "demowebshop-environment-001",
+	"name": "DemoWebShop Environment",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://fakestoreapi.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "webAppUrl",
+			"value": "https://demowebshop.tricentis.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "username",
+			"value": "mor_2314",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "83r5^_",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "productId",
+			"value": "1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userId",
+			"value": "1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "cartId",
+			"value": "1",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoWebShop Automation Suite" verbose="2" parallel="none">
+
+    <!-- Smoke Tests -->
+    <test name="Login Tests">
+        <classes>
+            <class name="com.demowebshop.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Registration Tests -->
+    <test name="Registration Tests">
+        <classes>
+            <class name="com.demowebshop.tests.RegistrationTest"/>
+        </classes>
+    </test>
+
+    <!-- Search Tests -->
+    <test name="Search Product Tests">
+        <classes>
+            <class name="com.demowebshop.tests.SearchProductTest"/>
+        </classes>
+    </test>
+
+    <!-- Cart Tests -->
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.demowebshop.tests.CartTest"/>
+        </classes>
+    </test>
+
+    <!-- Checkout Tests -->
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.demowebshop.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <!-- Data Driven Tests -->
+    <test name="Data Driven Tests">
+        <classes>
+            <class name="com.demowebshop.tests.CSVDataDrivenTest"/>
+            <class name="com.demowebshop.tests.ExcelDataDrivenTest"/>
+        </classes>
+    </test>
+
+</suite>

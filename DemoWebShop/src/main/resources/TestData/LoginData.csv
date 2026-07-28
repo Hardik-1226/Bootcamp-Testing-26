@@ -1,0 +1,6 @@
+Email,Password,ExpectedResult
+test@test.com,Password@123,success
+invalid@test.com,WrongPass,failure
+admin@demowebshop.com,Admin@123,success
+user@invalid.com,,failure
+,Password@123,failure
